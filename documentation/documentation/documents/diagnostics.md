@@ -71,7 +71,7 @@ select d.data from mt_doc_trade as d where d.value > :arg0
 
 ## Previewing the PostgreSQL Query Plan
 
-Marten has a helper to find and preview the [PostgreSQL EXPLAIN plan](http://www.postgresql.org/docs/9.5/static/using-explain.html) for a Linq query. Our hope is that this will be a valuable aid to teams who need face performance problems while using Marten. The syntax for fetching the EXPLAIN plan for the Linq query from the previous section is shown below:
+Marten has a helper to find and preview the [PostgreSQL EXPLAIN plan](http://www.postgresql.org/docs/9.5/static/using-explain.html) for a Linq query. Our hope is that this will be a valuable aid to teams who face performance problems while using Marten. The syntax for fetching the EXPLAIN plan for the Linq query from the previous section is shown below:
 
 <[sample:preview_linq_explain_plan]>
 
